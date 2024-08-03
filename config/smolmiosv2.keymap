@@ -2,12 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&top_encoder { status = "okay"; steps = <80>; };
-
-#define BASE 0
-#define FUNC 1
-#define CONN 2
-
 / {  
     keymap {
         compatible = "zmk,keymap";
